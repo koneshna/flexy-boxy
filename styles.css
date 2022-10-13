@@ -1,0 +1,99 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  display: flex;
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  justify-content: center; 
+}
+
+.menu {
+/*   border: 1px solid #fff;  /* For debugging */
+  width: 900px;
+  display: flex;
+  justify-content: space-around
+  ;
+}
+.links{
+  display: flex;
+}
+.login{
+  margin-left: 20px;
+}
+.header-container{
+  color: #5995DA;
+  background-color:#D6E9FE;
+  display: flex;
+   justify-content: center; 
+
+  
+}
+.header{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social,
+
+/* .logo{height: 50px;} */
+
+.subscribe{
+  align-self: flex-end;
+  margin-bottom: 20px;
+
+}
+.photo-grid-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  
+}
+.first-item{
+  order: 1;
+}
+.last-item{
+  order: -1;
+}
+.photo-grid-item{
+  ;
+  width: 300px;
+  height: 300px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-item{
+  border: 1px solid red;
+  background-color: #D6E9FE;
+  height:200px;
+  flex:1;
+}
+.footer-one,
+.footer-three{
+  background-color: #5995DA;
+  flex:initial;
+  width: 300px;
+  border-left: 0px;
+}
+.signup{
+  margin-left: auto;
+}
